@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>For My Love, Joseph 💗</title>
+<style>
+:root{--pink:#f6c9d8;--rose:#b84e72;--cream:#fffaf5;--ink:#573744;--soft:#ffeaf0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+button{font:inherit;cursor:pointer;border:0}.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;position:relative;background:radial-gradient(circle at top,#fff 0,#fff7fa 42%,#f9dce6 100%)}
+.hero-inner{max-width:760px;position:relative;z-index:1}.eyebrow{letter-spacing:.22em;text-transform:uppercase;font:12px Arial,sans-serif;color:#a75a75}.hero h1{font-size:clamp(2.5rem,8vw,5.5rem);line-height:1.05;margin:18px 0;color:#a84268}.hero p{font-size:clamp(1rem,3vw,1.25rem);line-height:1.7;margin:0 auto 28px;max-width:550px}.pill{background:#b84e72;color:white;padding:14px 24px;border-radius:999px;box-shadow:0 8px 20px #b84e7230;transition:.2s}.pill:hover{transform:translateY(-2px);background:#9f3d60}.floating{position:absolute;color:#d982a1;opacity:.6;animation:float 5s ease-in-out infinite;font-size:24px}.floating:nth-child(1){top:14%;left:12%}.floating:nth-child(2){top:25%;right:14%;animation-delay:1s}.floating:nth-child(3){bottom:17%;left:18%;animation-delay:2s}.floating:nth-child(4){bottom:20%;right:12%;animation-delay:.5s}@keyframes float{50%{transform:translateY(-18px) rotate(8deg)}}
+section{padding:75px 20px}.wrap{max-width:1000px;margin:auto}.section-title{text-align:center;font-size:clamp(2rem,5vw,3rem);color:#a84268;margin:0 0 12px}.subtitle{text-align:center;font:15px Arial,sans-serif;color:#9c7180;margin:0 auto 38px;line-height:1.6}.gifts{background:#fff}.gift-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.gift{background:linear-gradient(145deg,#fff7fa,#ffe5ee);border:1px solid #f4c9d8;border-radius:22px;padding:25px 15px;text-align:center;min-height:190px;box-shadow:0 10px 24px #a842680c;transition:.2s}.gift:hover{transform:translateY(-5px)}.gift .emoji{font-size:42px;display:block;margin-bottom:12px}.gift h3{margin:0 0 8px;color:#a84268;font-size:1.2rem}.gift p{font:13px Arial,sans-serif;color:#9c7180;margin:0}.photo-section{background:#fff7fa}.photo-frame{max-width:620px;margin:auto;border:10px solid white;border-radius:20px;box-shadow:0 12px 35px #9c52651c;overflow:hidden;background:#fff}.photo-frame img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}.photo-caption{text-align:center;padding:14px;font-style:italic;color:#a84268}.letter{max-width:700px;margin:auto;background:white;padding:clamp(25px,6vw,55px);border-radius:22px;box-shadow:0 12px 35px #9c52651c;line-height:1.9;font-size:1.08rem}.letter .salute{color:#a84268;font-size:1.35rem}.signature{text-align:right;color:#a84268;font-style:italic;margin-top:25px}.footer{text-align:center;padding:35px 20px;color:#a87586;font:13px Arial,sans-serif;background:#fff7fa}
+.modal{position:fixed;inset:0;background:#44202ebd;display:none;align-items:center;justify-content:center;padding:20px;z-index:10}.modal.show{display:flex}.modal-card{background:#fffaf5;max-width:520px;width:100%;border-radius:24px;padding:32px;text-align:center;position:relative;box-shadow:0 20px 60px #0003;animation:pop .25s ease}.modal-card .big{font-size:50px}.modal-card h2{color:#a84268;margin:12px 0}.modal-card p{line-height:1.8;font-size:1.05rem}.close{position:absolute;right:15px;top:12px;background:transparent;color:#a84268;font-size:25px}.music-btn{position:fixed;right:16px;bottom:16px;z-index:5;background:#fff;color:#a84268;border:1px solid #efc2d2;border-radius:999px;padding:12px 16px;box-shadow:0 6px 20px #0001;font:13px Arial,sans-serif}.heart-burst{position:fixed;pointer-events:none;z-index:20;font-size:22px;animation:burst 1.3s ease-out forwards}@keyframes burst{to{transform:translateY(-140px) scale(1.7);opacity:0}}@keyframes pop{from{transform:scale(.9);opacity:0}to{transform:scale(1);opacity:1}}
+@media(max-width:760px){.gift-grid{grid-template-columns:repeat(2,1fr)}section{padding:58px 18px}}@media(max-width:420px){.gift-grid{gap:10px}.gift{padding:20px 10px;min-height:170px}}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+  <span class="floating">♡</span><span class="floating">✦</span><span class="floating">♡</span><span class="floating">✧</span>
+  <div class="hero-inner">
+    <div class="eyebrow">A little birthday surprise</div>
+    <h1>Happy Birthday,<br>My Lovie dearly Joseph! 🎂</h1>
+    <p>To my favorite person, my happiness, and the one who makes ordinary days feel special. I made a little corner of the internet just for you.</p>
+    <button class="pill" onclick="document.getElementById('surprises').scrollIntoView({behavior:'smooth'})">Open your surprises 💌</button>
+  </div>
+</header>
+<section class="gifts" id="surprises"><div class="wrap">
+  <h2 class="section-title">A Little Surprise for You</h2><p class="subtitle">Choose a gift, my love. Each one holds a little piece of my heart.</p>
+  <div class="gift-grid">
+    <button class="gift" onclick="openGift(0)"><span class="emoji">🎁</span><h3>Gift One</h3><p>Reasons I love you</p></button>
+    <button class="gift" onclick="openGift(1)"><span class="emoji">💗</span><h3>Gift Two</h3><p>My birthday wish</p></button>
+    <button class="gift" onclick="openGift(2)"><span class="emoji">💌</span><h3>Gift Three</h3><p>A letter for you</p></button>
+    <button class="gift" onclick="openGift(3)"><span class="emoji">✨</span><h3>Gift Four</h3><p>One last surprise</p></button>
+  </div>
+</div></section>
+<section class="photo-section"><div class="wrap"><h2 class="section-title">My Favorite Memory</h2><p class="subtitle">A little space for our favorite photo together.</p>
+  <div class="photo-frame"><img src="our-photo.jpg" alt="A favorite photo of us" onerror="this.style.display='none';this.parentElement.style.minHeight='260px';this.parentElement.style.display='grid';this.parentElement.style.placeItems='center';this.parentElement.innerHTML='<div style=&quot;text-align:center;padding:30px;color:#b84e72;font-family:Arial,sans-serif&quot;>📷<br><br>Add your photo here<br><small>Put your picture beside this HTML file and name it <b>our-photo.jpg</b></small></div>'"><div class="photo-caption">One of my favorite moments with you ♡</div></div>
+</div></section>
+<section><div class="wrap"><h2 class="section-title">A Letter for My Love</h2><p class="subtitle">A few words from my heart to yours.</p>
+  <article class="letter"><div class="salute">Hi po, my love,</div>
+  <p>Happy birthday to my kindest and kolokoy boyfriend! 💗</p>
+  <p>Thank you for coming into my life unexpectedly and bringing so much happiness with you. You make my days brighter in ways you probably don't even realize. I am so grateful that I get to know you, love you, and celebrate another year of your life.</p>
+  <p>My wish for you is that this new chapter brings you peace, good health, answered prayers, and all the happiness your heart deserves. I hope you always remember how loved, appreciated, and special you are.</p>
+  <p>Whatever comes our way, I hope we keep choosing patience, understanding, laughter, and each other. I am proud of you, mahal, and I will always be cheering for you.</p>
+  <p>Enjoy your special day, baby. You deserve all the beautiful things in this world. I love you so much. ♡</p>
+  <div class="signature">Forever your girl,<br>your loving penguin 💕</div>
+  </article>
+</div></section>
+<footer class="footer">Made with so much love, just for Joseph ♡</footer>
+<button class="music-btn" onclick="toggleMusic()" id="musicBtn">♫ Play music</button>
+<audio id="music" loop><source src="our-song.mp3" type="audio/mpeg"></audio>
+<div class="modal" id="modal" onclick="if(event.target===this)closeGift()"><div class="modal-card"><button class="close" onclick="closeGift()" aria-label="Close">×</button><div class="big" id="modalEmoji">💗</div><h2 id="modalTitle"></h2><p id="modalText"></p><button class="pill" onclick="closeGift()">Awww, close ♡</button></div></div>
+<script>
+const gifts=[
+ {emoji:'🎁',title:'Reasons I Love You',text:'I love your kindness, your funny and playful side, the way you make me smile, and how being with you feels special. I love the little things you do and the person you are. Most of all, I love that I get to call you mahal. 💗'},
+ {emoji:'💗',title:'My Birthday Wish for You',text:'May you always be healthy, happy, safe, and surrounded by people who truly love you. May your dreams slowly become reality, and may you never forget how capable and wonderful you are. I wish you peace in your heart today and always. ✨'},
+ {emoji:'💌',title:'A Letter Just for You',text:'Mahal, thank you for being part of my life. I hope this little website reminds you that someone is always rooting for you, proud of you, and grateful for you. You are loved more than these words can explain. Happy birthday, baby!'},
+ {emoji:'✨',title:'One Last Surprise',text:'Your last surprise is this: you have a girlfriend who is so happy to celebrate you today. I hope I get to make more memories with you, laugh with you, and celebrate many more birthdays by your side. I love you, Joseph. Happy birthday! 💋'}
+];
+function openGift(i){const g=gifts[i];document.getElementById('modalEmoji').textContent=g.emoji;document.getElementById('modalTitle').textContent=g.title;document.getElementById('modalText').textContent=g.text;document.getElementById('modal').classList.add('show');heartBurst()}
+function closeGift(){document.getElementById('modal').classList.remove('show')}
+function toggleMusic(){const a=document.getElementById('music'),b=document.getElementById('musicBtn');if(a.paused){a.play().then(()=>b.textContent='♫ Pause music').catch(()=>b.textContent='♫ Add our-song.mp3 first')}else{a.pause();b.textContent='♫ Play music'}}
+function heartBurst(){for(let i=0;i<9;i++){const h=document.createElement('span');h.className='heart-burst';h.textContent=['♡','💗','✨'][i%3];h.style.left=(35+Math.random()*30)+'%';h.style.top=(55+Math.random()*15)+'%';document.body.appendChild(h);setTimeout(()=>h.remove(),1400)}}
+</script>
+</body>
+</html>
